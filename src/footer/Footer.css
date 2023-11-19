@@ -1,0 +1,24 @@
+.footer{
+    background-color: #FFE8BB;
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: 
+    "logo banner"
+    "texto texto";
+}
+
+.footer__logo {
+    grid-area: logo;
+    margin-left: 2.5rem;
+}
+
+
+.footer__banner {
+    grid-area: banner;
+    margin-top: 2.5rem;
+}
+
+.footer__texto {
+    grid-area: texto;
+    text-align: center;
+}

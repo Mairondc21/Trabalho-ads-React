@@ -1,0 +1,42 @@
+
+.servico__titulo{
+    display: grid;
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Jomolhari', serif;
+    margin-bottom: 100px;
+}
+
+.servico__conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+.servico__conteudo__item{
+    background-color: #FFE8BB;
+    width: 309px;
+    height: 328px;
+    border-radius: 20px;
+    border: solid;
+    display: grid;
+    grid-template-areas: 
+    "titulo "
+    "texto "; 
+      
+}
+
+.servico__conteudo__item h1{
+    grid-area: titulo;
+    text-align: center;
+    font-size: 36px;
+}
+
+.servico__conteudo__item p{
+    grid-area: texto;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-left: 10px;
+    width: 279px;
+    font-size: 20px;
+    overflow: visible;
+}
+

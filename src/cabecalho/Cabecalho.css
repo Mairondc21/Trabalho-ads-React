@@ -1,0 +1,25 @@
+.fundo{
+    background-color: #FFE8BB;
+    padding: 10px 0px;
+}
+
+.fundo__img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fundo__img__bagagem{
+    border-radius: 9px;
+}
+
+h1{
+    font-family: 'Jomolhari', serif;
+    font-weight: normal;
+}
+
+
+h2 {
+    width: 500px;
+    font-family: 'Jomolhari', serif;
+    font-weight: normal;
+}

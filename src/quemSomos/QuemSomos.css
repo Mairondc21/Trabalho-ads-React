@@ -1,0 +1,28 @@
+.quemSomos{
+    display: grid;
+    margin: 200px 100px;
+    grid-template-areas: 
+    "imagem titulo "
+    "imagem texto";
+    grid-template-columns: 52%;
+    grid-template-rows: 26%;
+    
+}
+
+.quemSomos__imagem{
+    grid-area: imagem;
+    
+}
+
+.quemSomos__titulo{
+    grid-area: titulo;
+    font-family: 'Jomolhari', serif;
+    font-size: 64px;
+}
+
+.quemSomos__conteudo{
+    grid-area: texto;
+    font-family: 'Jomolhari', serif;
+    font-size: 32px;
+    
+}

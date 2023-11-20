@@ -30,15 +30,15 @@
 
 @media(min-width:1440px) {
     .profissionais {
-        max-width: 70%;
+        max-width: 60%;
     }
 
     .profissionais__titulo {
         font-size: 46px;
     }
 
-
     .profissionais__conteudo{
-        
+        font-size: 28px;
+        width: auto;
     }
 }

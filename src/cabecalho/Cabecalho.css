@@ -1,11 +1,13 @@
 .fundo{
     background-color: #FFE8BB;
     padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-right:190px;
 }
 
 .fundo__img{
-    display: flex;
-    justify-content: space-around;
+    
 }
 
 .fundo__img__bagagem{
@@ -25,12 +27,8 @@ h2 {
 }
 
 @media(min-width:1440px){
-    .fundo__img{
-        gap: 3.5rem;
+    .fundo{
+        max-width: 90%;
     }
-
-    .fundo__img div{
-        flex-grow: 1;
-        
-    }
+    
 }

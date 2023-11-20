@@ -42,7 +42,7 @@
 
 @media(min-width:1440px){
     .servico__conteudo{
-        max-width: 90%;
+        max-width: 85%;
         column-gap: 20px;
         margin-left: 35px;
     }

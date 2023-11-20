@@ -23,6 +23,18 @@
 .quemSomos__conteudo{
     grid-area: texto;
     font-family: 'Jomolhari', serif;
-    font-size: 32px;
-    
+    font-size: 32px;  
+}
+
+@media(min-width:1440px){
+    .quemSomos{
+        column-gap: 5.5rem;
+        row-gap: 1.5rem;
+        
+    }
+
+    .quemSomos__titulo {
+        display: initial;
+        font-size: 46px;
+    }
 }

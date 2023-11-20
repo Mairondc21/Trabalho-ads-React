@@ -1,29 +1,44 @@
-.profissionais{
+.profissionais {
     display: grid;
     margin: 200px 100px;
-    grid-template-areas: 
-    "titulo imagem "
-    "texto imagem";
+    grid-template-areas:
+        "titulo imagem "
+        "texto imagem";
     grid-template-columns: 63%;
     grid-template-rows: 26%;
-    
+
 }
 
-.profissionais__imagem{
+.profissionais__imagem {
     grid-area: imagem;
 }
 
-.profissionais__titulo{
+.profissionais__titulo {
     grid-area: titulo;
     font-family: 'Jomolhari', serif;
     font-size: 64px;
     ;
 }
 
-.profissionais__conteudo{
+.profissionais__conteudo {
     grid-area: texto;
     font-family: 'Jomolhari', serif;
     font-size: 32px;
     width: 70%;
-    
+
+}
+
+@media(min-width:1440px) {
+    .profissionais {
+        max-width: 70%;
+    }
+
+    .profissionais__titulo {
+        font-size: 46px;
+    }
+
+
+    .profissionais__conteudo{
+        
+    }
 }
